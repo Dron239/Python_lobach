@@ -1,0 +1,7 @@
+a = (5,'Hello', 2.3, True,[21,17,'Hello',35],'Hello', ('By', 'Hello'))
+
+count = a.count('Hello')
+count2 = a[4].count('Hello')
+count3 = a[6].count('Hello')
+total_count = count + count2 + count3
+print(total_count)
