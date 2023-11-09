@@ -1,6 +1,7 @@
+# №1
 import random
-value = random.randint(1,10)
+value = [random.randint(1, 10) for _ in range(10)]
 uniq = list(set(value))
 print (uniq)
 
-#не работает, непонимаю почему
+#Солянка из стаковерфлоу и советов
