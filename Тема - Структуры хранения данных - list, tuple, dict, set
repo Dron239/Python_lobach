@@ -1,0 +1,6 @@
+import random
+value = random.randint(1,10)
+uniq = list(set(value))
+print (uniq)
+
+#не работает, непонимаю почему
