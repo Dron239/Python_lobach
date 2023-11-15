@@ -1,0 +1,11 @@
+a=int(input("Длина коробки"))
+b=int(input("Ширина коробки"))
+c=int(input("Высота коробки"))
+x=int(input("Длина двери"))
+y=int(input("Ширина двери"))
+z=int(input("Высота двери"))
+
+if (a>=x and b>=y and c>=z):
+    print("Не Проходит")
+else:
+    print("Проходит")
