@@ -1,0 +1,14 @@
+Написать программу – игра - угадай, в которой с помощью функции random генерируется случайное число от 1 до 50 Пользователю предлагается угадать данное число, на основе подсказать – загаданное число больше или меньше числа пользователя. Вывести число попыток отгадывания числа
+
+import random
+Chislo = random.randint(1, 50)
+
+while True: 
+    Vvod_chisla = int(input("Введите число "))
+    if Vvod_chisla == Chislo:
+        print("Ugadal")
+        break
+    elif Vvod_chisla> Chislo:
+        print("Less")
+    elif Vvod_chisla < Chislo:
+        print("More")
