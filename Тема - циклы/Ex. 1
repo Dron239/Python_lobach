@@ -19,3 +19,13 @@ elif ip==0:
     print("unassigned")
 else:
     print("unused")
+
+
+На занятии начали
+stroka=input(“введите IP адрес”) #10.1.1.1
+List_=stroka.split(“.”)   #  [10,1,1,1]
+a = int(List[0]) 
+If a >1 and a <223:
+  print(“unicast”)
+If stroka==“255.255.255.255”:
+If stroka==“0.0.0.0”:
